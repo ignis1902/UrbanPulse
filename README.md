@@ -126,3 +126,17 @@ UrbanPulse evaluates its Random Forest AQI prediction model against a persistenc
 ![AQI model comparison](docs/screenshots/aqi-model-comparison.png)
 
 The Random Forest model showed a modest improvement at Hadapsar IITM, while the persistence baseline performed better at Karve Road MPCB. These experimental results highlight why predictive models should be evaluated against simple baselines.
+
+## Dashboard Screenshots
+
+### Real-Time Environmental Forecast Dashboard
+
+![UrbanPulse forecast dashboard](docs/screenshots/forecast-dashboard.png)
+
+### Historical Station AQI Dashboard
+
+![UrbanPulse historical AQI dashboard](docs/screenshots/historical-aqi-dashboard.png)
+
+### AQI Model Evaluation
+
+![AQI model comparison](docs/screenshots/aqi-model-comparison.png)
