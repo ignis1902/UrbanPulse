@@ -1,0 +1,12 @@
+﻿openmeteo-requests
+pandas
+numpy
+requests-cache
+retry-requests
+psycopg[binary]
+python-dotenv
+scikit-learn
+matplotlib
+streamlit
+plotly
+requests

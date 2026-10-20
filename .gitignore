@@ -1,0 +1,28 @@
+﻿# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Cache and logs
+.cache/
+logs/
+*.log
+
+# Local datasets and generated predictions
+data/
+reports/aqi_model_predictions.csv
+
+# Local model artifacts
+models/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
