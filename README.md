@@ -118,3 +118,11 @@ Local datasets and prediction output are excluded from version control by defaul
 - Never commit `.env` or credentials.
 - Keep `.env.example` limited to placeholder values.
 - Review `git status` and ignored files before pushing to a remote repository.
+
+## Model Evaluation
+
+UrbanPulse evaluates its Random Forest AQI prediction model against a persistence baseline.
+
+![AQI model comparison](docs/screenshots/aqi-model-comparison.png)
+
+The Random Forest model showed a modest improvement at Hadapsar IITM, while the persistence baseline performed better at Karve Road MPCB. These experimental results highlight why predictive models should be evaluated against simple baselines.
